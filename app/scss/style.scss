@@ -1,7 +1,7 @@
-@import "vars";
-@import "libs";
-@import "fonts";
-@import "global";
+@import 'vars';
+@import 'libs';
+@import 'fonts';
+@import 'global';
 
 .header {
   position: relative;
@@ -24,8 +24,6 @@
   right: 80px;
   bottom: 116px;
   text-align: right;
-  color: #ffffff;
-  text-transform: uppercase;
 }
 
 .slider-item__info-subtitle {
@@ -69,7 +67,6 @@
   bottom: 36px;
   max-width: 920px;
   width: 100%;
-  color: #ffffff;
 
   .slick-current {
     .dots-box {
@@ -96,6 +93,7 @@
   &__name {
     font-weight: 300;
     line-height: 19px;
+    text-transform: capitalize;
   }
 }
 
@@ -107,14 +105,12 @@
   border-right: 1px solid rgba(#fff, 0.25);
   height: 100vh;
   text-align: center;
-  color: #ffffff;
 }
 
 .header__title {
   font-size: 200px;
   line-height: 156px;
-  text-transform: uppercase;
-  color: #ffffff;
+
   opacity: 0.07;
   font-weight: 800;
   max-width: 467px;
@@ -128,8 +124,6 @@
   padding-top: 40px;
 
   a {
-    color: #ffffff;
-
     span {
       display: block;
       font-size: 12px;
@@ -138,6 +132,7 @@
       font-weight: 500;
       padding-top: 6px;
       margin-bottom: 20px;
+      text-transform: capitalize;
     }
   }
 }
@@ -171,9 +166,10 @@
   font-weight: 300;
   position: relative;
   padding-left: 19px;
+  text-transform: capitalize;
 
   &::before {
-    content: "";
+    content: '';
     position: absolute;
     width: 11px;
     height: 13px;
@@ -201,14 +197,53 @@
   stroke-dashoffset: 600;
   stroke-dasharray: 600;
   animation: animdash 5s infinite 6s;
-
 }
 
 @keyframes animdash {
   to {
     stroke-dashoffset: 0;
   }
-
 }
 
-@import "media";
+.serf {
+  padding: 160px 0 210px;
+  background-image: url(../images/serf-bg.png);
+  background-position: right 200px;
+  background-repeat: no-repeat;
+  background-size: auto;
+}
+
+.serf-subtitle {
+  text-align: right;
+  padding-right: 80px;
+  margin-top: -86px;
+}
+.serf-slider {
+  padding-top: 110px;
+  .slider-arrows {
+    top: 50px;
+    opacity: 0.25;
+  }
+}
+.serf-box {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  &__inner {
+    min-height: 750px;
+    background: rgba(#1c2121, 0.85);
+    position: relative;
+  }
+}
+
+.serf-box__inner-title {
+}
+.serf-box__inner-location {
+}
+.btn-box {
+}
+.btn {
+}
+
+@import 'media';
