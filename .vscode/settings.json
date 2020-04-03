@@ -1,5 +1,5 @@
 {
-  "cSpell.language": "en-US,en,en-GB,ru-RU",
+  "cSpell.language": "en-US,en-GB,ru-RU",
   "cSpell.words": [
     "Airlie",
     "Auberne",
@@ -7,6 +7,7 @@
     "Boucau",
     "Hosegor",
     "Philipines",
+    "Pura",
     "Queenaland",
     "Siagao",
     "Vieux",
@@ -15,6 +16,8 @@
     "avia",
     "descr",
     "dotshead",
+    "sleepslider",
+    "summ",
     "travelslider",
     "влево",
     "вправо",
@@ -26,6 +29,22 @@
   "editor.fontLigatures": true,
   "editor.fontSize": 16,
   "editor.fontWeight": "400",
+  "AllAutocomplete.cycleOpenDocumentsOnLaunch": true,
+  "prettier.printWidth": 100,
+  "prettier.trailingComma": "all",
+  "prettier.useTabs": true,
+  "workbench.tree.renderIndentGuides": "always",
+  "guides.active.width": 2,
+  "guides.indent.hideBackgroundOnSelection": false,
+  "guides.indent.showFirstIndentGuides": false,
+  "guides.active.color.dark": "rgb(253,255,0)",
+  "editor.definitionLinkOpensInPeek": true,
   "editor.formatOnSave": true,
-  "editor.formatOnType": true
+  "cSpell.allowCompoundWords": true,
+  "editor.cursorBlinking": "smooth",
+  "editor.cursorSmoothCaretAnimation": true,
+  "editor.cursorWidth": 1,
+  "guides.active.extraIndent": true,
+  "emmet.optimizeStylesheetParsing": false,
+  "emmet.triggerExpansionOnTab": true
 }

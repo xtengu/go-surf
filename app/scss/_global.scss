@@ -195,14 +195,13 @@ input[type='number'] {
   width: 45px;
   height: 42px;
 
- 
   display: block;
 
   border: none;
   background-color: transparent;
   font-size: 40px;
   line-height: 36px;
- 
+
   font-weight: 800;
   color: #fff;
 }
@@ -238,4 +237,12 @@ input[type='number'] {
   position: absolute;
 
   right: 25px;
+}
+
+.star-list {
+  li {
+    display: inline-block;
+
+    margin-left: -25px;
+  }
 }
