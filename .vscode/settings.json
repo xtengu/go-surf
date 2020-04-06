@@ -25,7 +25,7 @@
     "стрелка"
   ],
   "editor.tabSize": 2,
-  "editor.fontFamily": " iosevka, pragmatapro mono, Monoid, hack,  Monoid",
+  "editor.fontFamily": " fira code, iosevka, pragmatapro mono, Monoid, hack,  Monoid",
   "editor.fontLigatures": true,
   "editor.fontWeight": "400",
   "prettier.printWidth": 100,
@@ -43,9 +43,8 @@
   "prettier.singleQuote": true,
   "prettier.useEditorConfig": false,
   "todo-tree.highlights.enabled": false,
-  "editor.fontSize": 16,
   "editor.formatOnType": true,
   "files.autoSave": "onFocusChange",
-  "editor.wordWrap": "bounded",
-  "editor.wordWrapColumn": 100
+  "editor.wordWrapColumn": 100,
+  "editor.fontSize": 16
 }
