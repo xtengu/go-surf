@@ -25,7 +25,6 @@
     "стрелка"
   ],
   "editor.tabSize": 2,
-  "editor.fontFamily": " fira code, iosevka, pragmatapro mono, Monoid, hack,  Monoid",
   "editor.fontLigatures": true,
   "editor.fontWeight": "400",
   "prettier.printWidth": 100,
