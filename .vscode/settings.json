@@ -19,6 +19,7 @@
     "sleepslider",
     "summ",
     "travelslider",
+    "unslick",
     "влево",
     "вправо",
     "логотип",
@@ -31,7 +32,6 @@
   "prettier.useTabs": true,
   "workbench.tree.renderIndentGuides": "always",
   "editor.definitionLinkOpensInPeek": true,
-  "editor.formatOnSave": true,
   "cSpell.allowCompoundWords": true,
   "editor.cursorBlinking": "smooth",
   "editor.cursorSmoothCaretAnimation": true,
@@ -40,10 +40,10 @@
   "emmet.triggerExpansionOnTab": true,
   "prettier.resolveGlobalModules": true,
   "prettier.singleQuote": true,
-  "prettier.useEditorConfig": false,
   "todo-tree.highlights.enabled": false,
   "editor.formatOnType": true,
   "files.autoSave": "onFocusChange",
   "editor.wordWrapColumn": 100,
-  "editor.fontSize": 16
+  "editor.fontSize": 16,
+  "prettier.trailingComma": "all"
 }

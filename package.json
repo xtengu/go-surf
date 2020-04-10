@@ -23,6 +23,7 @@
     "wow.js": "^1.2.2"
   },
   "dependencies": {
+    "scss": "^0.2.4",
     "slick-carousel": "^1.8.1"
   }
 }
